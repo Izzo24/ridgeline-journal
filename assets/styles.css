@@ -31,7 +31,7 @@ body{
   font-size:17px;
   -webkit-font-smoothing:antialiased;
 }
-img{max-width:100%;display:block}
+img{max-width:100%;height:auto;display:block}
 a{color:var(--rust-dark);text-decoration:none}
 a:hover{color:var(--rust)}
 h1,h2,h3,h4{font-family:var(--serif);color:var(--forest);line-height:1.2;font-weight:600;letter-spacing:.01em}
@@ -136,7 +136,7 @@ p{margin:0 0 1.1em}
 /* ---- Gallery ---- */
 .masonry{columns:3;column-gap:22px}
 .masonry figure{break-inside:avoid;margin:0 0 22px}
-.masonry img{border-radius:5px;width:100%;box-shadow:0 8px 22px rgba(43,40,35,.1)}
+.masonry img{border-radius:5px;width:100%;height:auto;box-shadow:0 8px 22px rgba(43,40,35,.1)}
 .masonry figcaption{font-size:.84rem;color:var(--moss);margin-top:6px}
 
 /* ---- Contact / form ---- */
